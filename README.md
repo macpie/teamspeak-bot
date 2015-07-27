@@ -4,6 +4,27 @@
 
 **AFK** will move any client idle for more then 2 hours to a specific channel (or default channel).
 
+## Events
+
+You can subscribe to events like
+
+* `connected`/`disconnected` : bot connected/disconnected
+* `afk` : bot moved client to afk channel
+
+```javascript
+bot.events.on('connected', function() {
+    console.log('bot connected!');
+});
+
+bot.events.on('disconnected', function() {
+    console.log('bot disconnected!');
+});
+
+bot.events.on('afk', function(client) {
+    console.log(client.client_nickname, + " moved!");
+});
+```
+
 ## Config
 
 ```json
