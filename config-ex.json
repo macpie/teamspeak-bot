@@ -5,6 +5,7 @@
     "login": "admin",
     "pwd": "password",
     "afk": {
-        "channel": 1
+        "channel": 1,
+        "idle_time": 60
     }
 }

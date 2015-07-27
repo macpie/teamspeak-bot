@@ -14,7 +14,8 @@
     "login": "admin", // ServerQuery login
     "pwd": "password", // ServerQuery password
     "afk": { // afk function
-        "channel": 13 // channel id to move afk clients to
+        "channel": 13, // channel id to move afk clients to
+        "idle_time": 60 // idle time after client will be move (in minutes) default 60
     }
 }
 ```
