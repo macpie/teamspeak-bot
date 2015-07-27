@@ -9,14 +9,14 @@
 ```json
 // Rename to config.json
 {
-    "host": "localhost",
-    "port": 10011,
-    "server": 1,
-    "login": "admin",
-    "pwd": "password",
-    "afk": {
-        "channel": 1,
-        "idle_time": 60
+    "host": "localhost", // Teamspeak server ip/hostname
+    "port": 10011, // Teamspeak server port
+    "server": 1, // Server id usually 1
+    "login": "admin", // ServerQuery login
+    "pwd": "password", // ServerQuery password
+    "afk": { // afk function
+        "channel": 13, // channel id to move afk clients to
+        "idle_time": 60 // idle time after client will be move (in minutes) default 60
     }
 }
 ```
