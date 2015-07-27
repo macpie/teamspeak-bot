@@ -1,0 +1,10 @@
+{
+    "host": "localhost",
+    "port": 10011,
+    "server": 1,
+    "login": "admin",
+    "pwd": "password",
+    "afk": {
+        "channel": 1
+    }
+}
