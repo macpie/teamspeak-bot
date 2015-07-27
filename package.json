@@ -11,9 +11,6 @@
         "winston": "^1.0.1"
     },
     "devDependencies": {},
-    "config": {
-        "path": "$(pwd)"
-    },
     "scripts": {
         "test": "echo $npm_config_root",
         "start": "forever start -p $(pwd) --append --uid 'teamspeak-bot' -l 'log/forever.log' index.js",
