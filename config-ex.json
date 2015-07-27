@@ -1,3 +1,4 @@
+// Rename to config.json
 {
     "host": "localhost",
     "port": 10011,
