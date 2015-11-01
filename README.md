@@ -35,6 +35,7 @@ bot.events.on('afk', function(client) {
     "server": 1, // Server id usually 1
     "login": "admin", // ServerQuery login
     "pwd": "password", // ServerQuery password
+    "botName": "TeamSpeak Bot", // Bot name
     "afk": { // afk function
         "channel": 13, // channel id to move afk clients to
         "idle_time": 60 // idle time after client will be move (in minutes) default 60
