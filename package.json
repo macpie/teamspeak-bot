@@ -12,9 +12,7 @@
     },
     "devDependencies": {},
     "scripts": {
-        "test": "echo $npm_config_root",
-        "start": "forever start -p $(pwd) --append --uid 'teamspeak-bot' -l 'log/forever.log' index.js",
-        "stop": "forever stop teamspeak-bot"
+        "start": "node index.js"
     },
     "author": "Peter Defebvre",
     "license": "MIT"
