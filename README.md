@@ -46,9 +46,3 @@ bot.events.on('afk', function(client) {
 ## Usage
 
 `npm start` start bot
-
-
-`npm stop` stop bot
-
-
-You will need to install [forever](https://www.npmjs.com/package/forever) if you want to use `npm start` & `npm stop`
