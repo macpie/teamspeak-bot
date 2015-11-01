@@ -1,5 +1,9 @@
 # teamspeak-bot
 
+## Run with docker
+
+docker run -v <config.json source>:/home/teamspeak-bot/config.json -it --rm --name teamspeak-bot teamspeak-bot
+
 ## Functions
 
 **AFK** will move any client idle for more then 2 hours to a specific channel (or default channel).
