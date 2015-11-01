@@ -4,6 +4,7 @@
     "server": 1,
     "login": "admin",
     "pwd": "password",
+    "botName": "TeamSpeak Bot",
     "afk": {
         "channel": 1,
         "idle_time": 60
