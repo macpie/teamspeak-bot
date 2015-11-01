@@ -6,8 +6,6 @@ RUN git clone https://github.com/macpie/teamspeak-bot /home/teamspeak-bot
 
 WORKDIR /home/teamspeak-bot
 
-ADD config.json config.json
-
 RUN npm install
 
 CMD ["npm","start"]
