@@ -5,14 +5,14 @@
     "main": "index.js",
     "dependencies": {
         "async": "^1.4.0",
+        "bunyan": "^1.5.1",
         "moment": "^2.10.5",
         "node-teamspeak-api": "^1.0.0",
-        "underscore": "^1.8.3",
-        "winston": "^1.0.1"
+        "underscore": "^1.8.3"
     },
     "devDependencies": {},
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js | bunyan --time local --color -l trace"
     },
     "author": "Peter Defebvre",
     "license": "MIT"
