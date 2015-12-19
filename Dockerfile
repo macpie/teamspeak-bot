@@ -2,7 +2,6 @@ FROM node:4.2.1
 
 RUN mkdir -p /var/log/teamspeak-bot
 RUN mkdir -p /opt/teamspeak-bot
-RUN mkdir -p /etc/teamspeak-bot
 
 ADD . /opt/teamspeak-bot
 

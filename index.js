@@ -1,4 +1,4 @@
-var config = require('/etc/teamspeak-bot/config.json'),
+var config = require(__dirname + '/config.json'),
     Bot = require(__dirname + '/lib/bot');
 
 var bot = new Bot(config);

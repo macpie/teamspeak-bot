@@ -2,7 +2,9 @@
 
 ## Run with docker
 
-docker run -v <config.json source>:/etc/teamspeak-bot/config.json -it --rm --name teamspeak-bot teamspeak-bot
+`docker run -v <config.json source>:/opt/teamspeak-bot/config.json -it --rm --name teamspeak-bot macpie/teamspeak-bot`
+
+`docker run -v <config.json source>:/opt/teamspeak-bot/config.json -d --name teamspeak-bot macpie/teamspeak-bot`
 
 ## Functions
 
