@@ -12,7 +12,7 @@
     },
     "devDependencies": {},
     "scripts": {
-        "start": "node index.js | bunyan --time local --color -l trace"
+        "start": "node index.js |  ./node_modules/bunyan/bin/bunyan --time local --color -l trace"
     },
     "author": "Peter Defebvre",
     "license": "MIT"
