@@ -4,5 +4,5 @@ var config = require(__dirname + '/config.json'),
 var bot = new Bot(config);
 
 bot.connect(config.login, config.pwd, function() {
-    bot.afk(config.afk.channel, config.afk.idle_time);
+    bot.afk(config.afk.channel, config.afk.idle_time, config.except);
 });
